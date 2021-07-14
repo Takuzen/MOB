@@ -7,9 +7,6 @@
   }
 }
 
-.container {
-}
-
 .header {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -22,9 +19,6 @@
   justify-content: flex-start;
   background-color: white;
   margin-bottom: 30px;
-}
-
-.main {
 }
 
 .title {
@@ -75,6 +69,7 @@
   font-size: 17px;
   line-height: 34px;
   letter-spacing: 1.6px;
+  font-weight: bold;
 }
 
 .page3 {
@@ -131,9 +126,107 @@
   padding-bottom: 30px;
 }
 
-@media (max-width: 600px) {
-  .grid {
+@media only screen and (max-width: 600px) {
+  .header {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
     width: 100%;
+    z-index: 3;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    font-family: "Otomanopee One", sans-serif;
+    margin-left: 20px;
+  }
+
+  .page1 {
+    height: 100vh;
+    display: block;
+  }
+
+  .mainImg1 {
+    animation: fadeIn;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+  }
+
+  .mainImg2 {
+    animation: fadeIn;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    padding-top: 8vh;
+  }
+
+  .page2 {
+    height: 100vh;
+    display: flex;
     flex-direction: column;
+    text-align: left;
+    margin: 0 10vw;
+    line-height: 2;
+  }
+
+  .storyText {
+    font-family: serif;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 1.6px;
+    font-weight: bold;
+  }
+
+  .page3 {
+    height: 50vh;
+    position: relative;
+    top: 150px;
+  }
+
+  .page4 {
+    height: 100vh;
+    display: block;
+    margin-top: 80px;
+  }
+
+  .productSpec1 {
+    margin-bottom: 70px;
+  }
+
+  .page5 {
+    display: block;
+    text-align: center;
+  }
+
+  .releaseDateText {
+    font-family: serif;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    text-decoration: underline yellow 10px;
+  }
+
+  .alermBtn {
+    background: #5d5d5d;
+    color: white;
+    font-family: serif;
+    padding: 30px;
+    letter-spacing: 0.1rem;
+    position: relative;
+    top: 70px;
+  }
+
+  .alermBtn:hover {
+    background: #444444;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
   }
 }

@@ -63,7 +63,7 @@ export default function Home() {
             <br />
             ググっても、良いものが見つからないし。
             <br />
-            そんなある夜中2時に、突然この製品の青写真が頭に浮かんだ。
+            そんなある夜中2時に、突然この製品の青写真が頭に浮かんで。
           </text>
         </section>
         <section className={styles.page3}>
@@ -81,7 +81,7 @@ export default function Home() {
             <Image
               src="/sample-photo-1.png"
               alt="img"
-              width={500}
+              width={700}
               height={500}
             />
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
             <Image
               src="/Adobe Illustrator 2021 2021-04-15 at 18.54.19@2x.png"
               alt="img"
-              width={500}
+              width={700}
               height={500}
             />
           </div>
@@ -98,7 +98,12 @@ export default function Home() {
           <h2 className={styles.releaseDateText}>
             マクアケにて 8/5 より予約販売開始
           </h2>
-          <a className={styles.alermBtn} href="http://eepurl.com/hDHrTz">
+          <a
+            className={styles.alermBtn}
+            href="http://eepurl.com/hDHrTz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             お知らせを受け取る
           </a>
         </section>
