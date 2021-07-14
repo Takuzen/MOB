@@ -94,10 +94,41 @@
 }
 
 .page5 {
-  height: 50vh;
+  position: relative;
+  top: -15vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.releaseDateText {
+  font-family: serif;
+  letter-spacing: 0.1rem;
+  text-decoration: underline yellow 10px;
+}
+
+.alermBtn {
+  background: #5d5d5d;
+  color: white;
+  font-family: serif;
+  padding: 30px;
+  letter-spacing: 0.1rem;
+}
+
+.alermBtn:hover {
+  background: #444444;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footerText {
   display: flex;
   justify-content: center;
-  align-content: center;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 600px) {

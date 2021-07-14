@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>mob</title>
+        <title>モブ｜MOB</title>
         <link rel="icon" href="/bike.favicon.ico" />
       </Head>
 
@@ -63,7 +63,7 @@ export default function Home() {
             <br />
             ググっても、良いものが見つからないし。
             <br />
-            そんなある夜中2時に、突然この製品の青写真が頭に浮かんだ！
+            そんなある夜中2時に、突然この製品の青写真が頭に浮かんだ。
           </text>
         </section>
         <section className={styles.page3}>
@@ -94,8 +94,18 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className={styles.page5}></section>
+        <section className={styles.page5}>
+          <h2 className={styles.releaseDateText}>
+            マクアケにて 8/5 より予約販売開始
+          </h2>
+          <a className={styles.alermBtn} href="http://eepurl.com/hDHrTz">
+            お知らせを受け取る
+          </a>
+        </section>
       </main>
+      <footer>
+        <p className={styles.footerText}>©️ モブ｜MOB</p>
+      </footer>
     </div>
   );
 }
