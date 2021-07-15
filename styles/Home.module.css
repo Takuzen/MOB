@@ -151,6 +151,8 @@
 
   .page1 {
     height: 100vh;
+    position: relative;
+    top: 100px;
     display: block;
   }
 
@@ -188,7 +190,7 @@
   .page3 {
     height: 50vh;
     position: relative;
-    top: 150px;
+    top: 200px;
   }
 
   .page4 {
