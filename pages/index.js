@@ -95,9 +95,7 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.page5}>
-          <h2 className={styles.releaseDateText}>
-            マクアケにて 8/5 より予約販売開始
-          </h2>
+          <h2 className={styles.releaseDateText}>8/5 より予約販売開始</h2>
           <a
             className={styles.alermBtn}
             href="http://eepurl.com/hDHrTz"

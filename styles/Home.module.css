@@ -190,13 +190,13 @@
   .page3 {
     height: 50vh;
     position: relative;
-    top: 200px;
+    top: 220px;
   }
 
   .page4 {
     height: 100vh;
     display: block;
-    margin-top: 80px;
+    margin-top: 150px;
   }
 
   .productSpec1 {
@@ -204,6 +204,7 @@
   }
 
   .page5 {
+    padding-top: 50px;
     display: block;
     text-align: center;
   }
