@@ -17,20 +17,10 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.page1}>
           <div className={styles.mainImg1}>
-            <Image
-              src="/sample-photo-1.png"
-              alt="img"
-              width={700}
-              height={500}
-            />
+            <Image src="/top1.jpg" alt="img" width={700} height={500} />
           </div>
           <div className={styles.mainImg2}>
-            <Image
-              src="/Adobe Illustrator 2021 2021-04-15 at 18.54.19@2x.png"
-              alt="img"
-              width={700}
-              height={500}
-            />
+            <Image src="/top2.jpg" alt="img" width={700} height={500} />
           </div>
         </section>
         <section className={styles.page2}>
@@ -68,18 +58,13 @@ export default function Home() {
         </section>
         <section className={styles.page3}>
           <div>
-            <Image
-              src="/sample-photo-1.png"
-              alt="img"
-              width={700}
-              height={500}
-            />
+            <Image src="/on-ride.jpg" alt="img" width={700} height={500} />
           </div>
         </section>
         <section className={styles.page4}>
           <div className={styles.productSpec1}>
             <Image
-              src="/sample-photo-1.png"
+              src="/product-detail.jpg"
               alt="img"
               width={700}
               height={500}
@@ -87,7 +72,7 @@ export default function Home() {
           </div>
           <div className={styles.productSpec2}>
             <Image
-              src="/Adobe Illustrator 2021 2021-04-15 at 18.54.19@2x.png"
+              src="/product-detail-2.jpg"
               alt="img"
               width={700}
               height={500}
