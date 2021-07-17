@@ -87,7 +87,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            お知らせを受け取る
+            興味ある 👍
           </a>
         </section>
       </main>
