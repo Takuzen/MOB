@@ -87,7 +87,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            興味ある 👍
+            フォローする
           </a>
         </section>
       </main>
