@@ -93,16 +93,22 @@
   top: -15vh;
   height: 30vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin-bottom: 80px;
 }
 
 .releaseDateText {
   font-family: serif;
   letter-spacing: 0.1rem;
   text-decoration: underline yellow 10px;
+}
+
+.contactText {
+  font-family: serif;
+  letter-spacing: 0.1rem;
 }
 
 .alermBtn {
@@ -205,8 +211,6 @@
 
   .page5 {
     padding-top: 50px;
-    display: block;
-    text-align: center;
   }
 
   .releaseDateText {
@@ -222,8 +226,6 @@
     font-family: serif;
     padding: 30px;
     letter-spacing: 0.1rem;
-    position: relative;
-    top: 70px;
   }
 
   .alermBtn:hover {

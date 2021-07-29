@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>モブ｜MOB</title>
+        <title>MOB｜モブ</title>
         <link rel="icon" href="/bike.favicon.ico" />
       </Head>
 
@@ -35,15 +35,13 @@ export default function Home() {
             <br />
             <p>お気に入りのカフェ、打ち合わせ先、そして仕事場で。</p>
             <br />
-            ここで問題だ。
-            <br />
             さてどうやって自転車でパソコンを持ち運ぶ？
             <br />
             リュックに入れる、うん、それが一般的だと思う。僕もそうしてきた。
             <br />
             でも、パソコンとかを入れた重いバックパックを背負って、
             <br />
-            15分30分チャリ乗ったらさ、これからの夏は特にそうだけど、
+            15分30分チャリ乗ったらさ、夏は特にそうだけど、
             <br />
             目的地に着いた時には、背中は汗びっしょり、肩もちょっぴり疲れてる。
             <br />
@@ -53,7 +51,7 @@ export default function Home() {
             <br />
             ググっても、良いものが見つからないし。
             <br />
-            そんなある夜中2時に、突然この製品の青写真が頭に浮かんで。
+            そんなある夜中2時に、ふとこの製品の青写真が頭に浮かんで。
           </text>
         </section>
         <section className={styles.page3}>
@@ -89,6 +87,8 @@ export default function Home() {
           >
             フォローする
           </a>
+          <h2 className={styles.contactText}>お問い合わせ</h2>
+          <p>takuzen[at]gmail.com</p>
         </section>
       </main>
       <footer>
