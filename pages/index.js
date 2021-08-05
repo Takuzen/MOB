@@ -6,21 +6,48 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>MOB｜モブ</title>
+        <title>MOB</title>
         <link rel="icon" href="/bike.favicon.ico" />
       </Head>
 
       <header className={styles.header}>
         <h2 className={styles.title}>チャリにパソコンをつみたい</h2>
+
+        <a
+          className={styles.logoInstagram}
+          href="https://www.instagram.com/mobtokyo/"
+        >
+          <Image
+            src="/logo-instagram.svg"
+            alt="logo-instagram"
+            width={30}
+            height={30}
+          ></Image>
+        </a>
       </header>
 
       <main className={styles.main}>
+        <section className={styles.campaignHeader}>
+          <a
+            className={styles.campaignText}
+            href="http://eepurl.com/hDHrTz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            マクアケにて 8.17 より予約開始
+          </a>
+        </section>
         <section className={styles.page1}>
-          <div className={styles.mainImg1}>
-            <Image src="/top1.jpg" alt="img" width={700} height={500} />
+          <div className={styles.mainImg}>
+            <Image src="/main-img.png" alt="img" width={1439} height={636} />
           </div>
-          <div className={styles.mainImg2}>
-            <Image src="/top2.jpg" alt="img" width={700} height={500} />
+          <div className={styles.mainImgMobile}>
+            <Image
+              src="/mainImgMobile.png"
+              alt="img"
+              width={376}
+              height={399}
+            />
           </div>
         </section>
         <section className={styles.page2}>
@@ -55,44 +82,35 @@ export default function Home() {
           </text>
         </section>
         <section className={styles.page3}>
-          <div>
-            <Image src="/on-ride.jpg" alt="img" width={700} height={500} />
+          <div className={styles.gif}>
+            <Image src="/7s-use.gif" alt="gif" width={700} height={500} />
           </div>
         </section>
         <section className={styles.page4}>
           <div className={styles.productSpec1}>
             <Image
-              src="/product-detail.jpg"
+              src="/product-sq-omote.png"
               alt="img"
-              width={700}
-              height={500}
+              width={400}
+              height={400}
             />
           </div>
           <div className={styles.productSpec2}>
             <Image
-              src="/product-detail-2.jpg"
+              src="/product-sq-ura.png"
               alt="img"
-              width={700}
-              height={500}
+              width={400}
+              height={400}
             />
           </div>
         </section>
         <section className={styles.page5}>
-          <h2 className={styles.releaseDateText}>8/5 より予約販売開始</h2>
-          <a
-            className={styles.alermBtn}
-            href="http://eepurl.com/hDHrTz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            フォローする
-          </a>
           <h2 className={styles.contactText}>お問い合わせ</h2>
           <p>takuzen[at]gmail.com</p>
         </section>
       </main>
       <footer>
-        <p className={styles.footerText}>©️ モブ｜MOB</p>
+        <p className={styles.footerText}></p>
       </footer>
     </div>
   );
