@@ -114,6 +114,14 @@
   align-content: start;
 }
 
+.orderBtn {
+  background: gray;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .page5 {
   height: 30vh;
   display: flex;
@@ -219,18 +227,14 @@
     width: 100%;
   }
 
-  .page4 {
-    height: 100%;
-    display: block;
-  }
-
   .productSpec1 {
-    margin-bottom: 70px;
     object-fit: contain;
+    width: 80vw;
   }
 
   .productSpec2 {
     object-fit: contain;
+    width: 80vw;
   }
 
   .page5 {

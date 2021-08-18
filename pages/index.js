@@ -30,11 +30,9 @@ export default function Home() {
         <section className={styles.campaignHeader}>
           <a
             className={styles.campaignText}
-            href="http://eepurl.com/hDHrTz"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://us6.list-manage.com/contact-form?u=658c42124313d8aff4cb34f19&form_id=0394e06ff568255d12c480cac4ae4c01"
           >
-            マクアケにて 8.17 より予約開始
+            現在予約受付中！
           </a>
         </section>
         <section className={styles.page1}>
@@ -43,7 +41,7 @@ export default function Home() {
           </div>
           <div className={styles.mainImgMobile}>
             <Image
-              src="/mainImgMobile.png"
+              src="/mob-hp-top-mobile.png"
               alt="img"
               width={376}
               height={399}
@@ -58,16 +56,10 @@ export default function Home() {
             <br />
             そして、贅沢かもしれないけれど、
             <br />
-            行く先々でパソコンを開いてクリエイティブな作業がしたい。
+            行く先々でパソコンを開いて作業がしたい。お気に入りのカフェ、打ち合わせ先、そして仕事場で。
             <br />
-            <p>お気に入りのカフェ、打ち合わせ先、そして仕事場で。</p>
-            <br />
-            さてどうやって自転車でパソコンを持ち運ぶ？
-            <br />
-            リュックに入れる、うん、それが一般的だと思う。僕もそうしてきた。
             <br />
             でも、パソコンとかを入れた重いバックパックを背負って、
-            <br />
             15分30分チャリ乗ったらさ、夏は特にそうだけど、
             <br />
             目的地に着いた時には、背中は汗びっしょり、肩もちょっぴり疲れてる。
@@ -79,6 +71,10 @@ export default function Home() {
             ググっても、良いものが見つからないし。
             <br />
             そんなある夜中2時に、ふとこの製品の青写真が頭に浮かんで。
+            <br />
+            <br />
+            MOB 代表
+            <br />鄧 卓然
           </text>
         </section>
         <section className={styles.page3}>
@@ -86,7 +82,68 @@ export default function Home() {
             <Image src="/7s-use.gif" alt="gif" width={700} height={500} />
           </div>
         </section>
-        <section className={styles.page4}>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            大切なパソコンを、
+            <br />
+            <p>
+              守りながら自転車と共にどこへでも連れて行けるように設計したけど、
+            </p>
+          </text>
+        </section>
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/_DSC0225.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            ここはあなたの創造力を働かせて、
+            <br />
+            <p>お気に入りの雑誌でも、</p>
+            <p>外でデッサンする為のスケッチパッドでも入れておくれ。</p>
+          </text>
+        </section>
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/0126840.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            少しだけこだわりを紹介させてほしい。
+            <br />
+            <p>まずは構造から。</p>
+            <p>3層になっており、</p>
+            <p>防水の革、緩衝防熱のクッション、そして人肌にあたる裏地だ。</p>
+            <p></p>
+          </text>
+        </section>
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/0126843.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            バックルは、三叉を受ける側が金属で、
+            <p>
+              ただプラスチックのものより頑丈で美しいだけでなく、カチカチ付け外し時の感触が心地が最高なんだよね。
+            </p>
+          </text>
+        </section>
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/0126833.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            サイズは、身軽派にも、本格派にも、対応できるように2つ用意した。
+            <br />
+          </text>
+        </section>
+        <section className={styles.page3}>
           <div className={styles.productSpec1}>
             <Image
               src="/product-sq-omote.png"
@@ -95,18 +152,52 @@ export default function Home() {
               height={400}
             />
           </div>
-          <div className={styles.productSpec2}>
+        </section>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            <h2>SMALL</h2>
+            <p>Mac13インチと、それ同等の大きさのパソコンが収まる</p>
+            <h2>¥ 15,630</h2>
+            <br />
+          </text>
+          <a
+            className={styles.orderBtn}
+            href="https://us6.list-manage.com/contact-form?u=658c42124313d8aff4cb34f19&form_id=0394e06ff568255d12c480cac4ae4c01
+
+            "
+          >
+            予約注文する
+          </a>
+        </section>
+        <section className={styles.page3}>
+          <div className={styles.productSpec1}>
             <Image
-              src="/product-sq-ura.png"
+              src="/product-sq-omote.png"
               alt="img"
               width={400}
               height={400}
             />
           </div>
         </section>
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            <h2>BIG</h2>
+            <p>Mac15インチと、それ同等の大きさのパソコンが収まる</p>
+            <h2>¥ 17,830</h2>
+            <br />
+          </text>
+          <a
+            className={styles.orderBtn}
+            href="https://us6.list-manage.com/contact-form?u=658c42124313d8aff4cb34f19&form_id=0394e06ff568255d12c480cac4ae4c01
+
+            "
+          >
+            予約注文する
+          </a>
+        </section>
         <section className={styles.page5}>
           <h2 className={styles.contactText}>お問い合わせ</h2>
-          <p>takuzen[at]gmail.com</p>
+          <p>takuzen0430[at]gmail.com</p>
         </section>
       </main>
       <footer>
