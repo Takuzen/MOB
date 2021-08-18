@@ -128,6 +128,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 100px;
 }
 
 .contactText {
@@ -238,6 +239,7 @@
   }
 
   .page5 {
+    margin-top: 100px;
   }
 
   .releaseDateText {

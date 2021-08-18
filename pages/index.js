@@ -96,53 +96,44 @@ export default function Home() {
             <Image src="/_DSC0225.jpg" alt="jpg" width={700} height={500} />
           </div>
         </section>
+
         <section className={styles.page2}>
           <text className={styles.storyText}>
             ここはあなたの創造力を働かせて、
             <br />
             <p>お気に入りの雑誌でも、</p>
-            <p>外でデッサンする為のスケッチパッドでも入れておくれ。</p>
+            <p>外でデッサンする為のスケッチパッドでも好きに入れておくれ。</p>
           </text>
         </section>
+
         <section className={styles.page3}>
           <div className={styles.gif}>
             <Image src="/0126840.jpg" alt="jpg" width={700} height={500} />
           </div>
         </section>
+
         <section className={styles.page2}>
           <text className={styles.storyText}>
-            少しだけこだわりを紹介させてほしい。
-            <br />
-            <p>まずは構造から。</p>
-            <p>3層になっており、</p>
-            <p>防水の革、緩衝防熱のクッション、そして人肌にあたる裏地だ。</p>
-            <p></p>
-          </text>
-        </section>
-        <section className={styles.page3}>
-          <div className={styles.gif}>
-            <Image src="/0126843.jpg" alt="jpg" width={700} height={500} />
-          </div>
-        </section>
-        <section className={styles.page2}>
-          <text className={styles.storyText}>
-            バックルは、三叉を受ける側が金属で、
+            裏地は、コットン100%の生地を橙色の縦縞柄に鮮やかに染め上げたものを使いました。
             <p>
-              ただプラスチックのものより頑丈で美しいだけでなく、カチカチ付け外し時の感触が心地が最高なんだよね。
+              マジックテープを開け閉めする時に、ポジティブな気持ちを喚起できれば嬉しいです。
             </p>
           </text>
         </section>
+
         <section className={styles.page3}>
           <div className={styles.gif}>
-            <Image src="/0126833.jpg" alt="jpg" width={700} height={500} />
+            <Image src="/0126834.jpg" alt="jpg" width={700} height={500} />
           </div>
         </section>
+
         <section className={styles.page2}>
           <text className={styles.storyText}>
             サイズは、身軽派にも、本格派にも、対応できるように2つ用意した。
             <br />
           </text>
         </section>
+
         <section className={styles.page3}>
           <div className={styles.productSpec1}>
             <Image
@@ -195,6 +186,100 @@ export default function Home() {
             予約注文する
           </a>
         </section>
+
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            もう少しだけ、こだわりをね。
+            <br />
+            <p>まずは構造。</p>
+            <p>3層構成で、</p>
+            <p>防水の革、緩衝防熱のクッション、そして人肌にあたる裏地だ。</p>
+            <p></p>
+          </text>
+        </section>
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/0126843.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            革は、大丈夫、ちゃんと防水です！
+            <br></br>
+            汚れたらシャワーヘッドの水でガシガシ洗ってください。
+            <br />
+          </text>
+        </section>
+
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image
+              src="/portrait-water-proof.gif"
+              alt="gif"
+              width={700}
+              height={500}
+            />
+          </div>
+        </section>
+
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            縫製は蔵前の革職人が丁寧に仕上げている。見て、この均一で美しい縫い目。
+            <p></p>
+          </text>
+        </section>
+
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/0126835.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            バックルは、三叉を受ける側が金属で、
+            <p>
+              プラスチックのものより頑丈で美しいだけでなく、カチカチ付け外し時の感触が心地が最高なんだよね。
+            </p>
+          </text>
+        </section>
+
+        <section className={styles.page3}>
+          <div className={styles.gif}>
+            <Image src="/0126833.jpg" alt="jpg" width={700} height={500} />
+          </div>
+        </section>
+
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            <h2>生産パートナー</h2>
+            <br />
+          </text>
+        </section>
+
+        <section className={styles.page2}>
+          <div className={styles.productSpec1}>
+            <Image
+              src="/ikedasan-pf-sq.png"
+              alt="png"
+              width={400}
+              height={400}
+            />
+          </div>
+        </section>
+
+        <section className={styles.page2}>
+          <text className={styles.storyText}>
+            <h3>池田耕平 / Kouhei Ikeda</h3>
+            <br />
+            革鞄・革小物のメーカーで経験を積んだ後に複数メーカーからサンプル製作の依頼を受けるサンプル職人として活躍、同時に自身の皮革ブランド
+            PRO-MENER（プロムネ）を運営している。
+          </text>
+        </section>
+
+        <hr />
+
         <section className={styles.page5}>
           <h2 className={styles.contactText}>お問い合わせ</h2>
           <p>takuzen0430[at]gmail.com</p>
