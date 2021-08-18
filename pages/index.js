@@ -8,6 +8,9 @@ export default function Home() {
       <Head>
         <title>MOB</title>
         <link rel="icon" href="/bike.favicon.ico" />
+        <meta property="og:title" content="チャリにパソコンをつみたい" />
+        <meta property="og:description" content="自転車用PCバッグ" />
+        <meta property="og:image" content="/_DSC0166.jpg" />
       </Head>
 
       <header className={styles.header}>
@@ -240,7 +243,7 @@ export default function Home() {
           <text className={styles.storyText}>
             バックルは、三叉を受ける側が金属で、
             <p>
-              プラスチックのものより頑丈で美しいだけでなく、カチカチ付け外し時の感触が心地が最高なんだよね。
+              プラスチックのものより頑丈で美しいだけでなく、カチカチ付け外し時の感触が心地良くて、最高なんだよね。
             </p>
           </text>
         </section>
