@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/bike.favicon.ico" />
         <meta property="og:title" content="チャリにパソコンをつみたい" />
         <meta property="og:description" content="自転車用PCバッグ" />
-        <meta property="og:image" content="/_DSC0166.jpg" />
+        <meta property="og:image" content="/ogp.jpg" />
       </Head>
 
       <header className={styles.header}>
