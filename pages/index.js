@@ -160,7 +160,7 @@ export default function Home() {
 
             "
           >
-            予約注文する
+            カートに入れる
           </a>
         </section>
         <section className={styles.page3}>
@@ -186,7 +186,7 @@ export default function Home() {
 
             "
           >
-            予約注文する
+            カートに入れる
           </a>
         </section>
 
