@@ -1,8 +1,15 @@
+import { useEffect } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import { useCookies } from "react-cookie";
 
 export default function Home() {
+  const [cookies, setCookie] = useCookies([]);
+  const updateCookie = (item, count) => {
+    const current = cookies[`mob_${item}`];
+    setCookie(`mob_${item}`, current && parseInt(current) ? parseInt(current) + count : count);
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -136,7 +143,6 @@ export default function Home() {
             <br />
           </text>
         </section>
-
         <section className={styles.page3}>
           <div className={styles.productSpec1}>
             <Image
@@ -156,9 +162,8 @@ export default function Home() {
           </text>
           <a
             className={styles.orderBtn}
-            href="https://us6.list-manage.com/contact-form?u=658c42124313d8aff4cb34f19&form_id=0394e06ff568255d12c480cac4ae4c01
-
-            "
+            href="/cart"
+            onClick={() => { updateCookie('small', 1); }}
           >
             予約注文する
           </a>
@@ -182,9 +187,8 @@ export default function Home() {
           </text>
           <a
             className={styles.orderBtn}
-            href="https://us6.list-manage.com/contact-form?u=658c42124313d8aff4cb34f19&form_id=0394e06ff568255d12c480cac4ae4c01
-
-            "
+            href="/cart"
+            onClick={() => { updateCookie('big', 1); }}
           >
             予約注文する
           </a>
