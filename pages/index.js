@@ -8,7 +8,10 @@ export default function Home() {
   const [cookies, setCookie] = useCookies([]);
   const updateCookie = (item, count) => {
     const current = cookies[`mob_${item}`];
-    setCookie(`mob_${item}`, current && parseInt(current) ? parseInt(current) + count : count);
+    setCookie(
+      `mob_${item}`,
+      current && parseInt(current) ? parseInt(current) + count : count
+    );
   };
   return (
     <div className={styles.container}>
@@ -38,10 +41,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <section className={styles.campaignHeader}>
-          <a
-            className={styles.campaignText}
-            href="https://us6.list-manage.com/contact-form?u=658c42124313d8aff4cb34f19&form_id=0394e06ff568255d12c480cac4ae4c01"
-          >
+          <a className={styles.campaignText} href="#shop">
             現在予約受付中！
           </a>
         </section>
@@ -94,11 +94,9 @@ export default function Home() {
         </section>
         <section className={styles.page2}>
           <text className={styles.storyText}>
-            大切なパソコンを、
+            ラック要らずで、大切なパソコンを守りながら、
             <br />
-            <p>
-              守りながら自転車と共にどこへでも連れて行けるように設計したけど、
-            </p>
+            <p>自転車と共にどこへでも連れて行けるように設計したけど、</p>
           </text>
         </section>
         <section className={styles.page3}>
@@ -143,7 +141,7 @@ export default function Home() {
             <br />
           </text>
         </section>
-        <section className={styles.page3}>
+        <section className={styles.page3} id="shop">
           <div className={styles.productSpec1}>
             <Image
               src="/product-sq-omote.png"
@@ -163,9 +161,11 @@ export default function Home() {
           <a
             className={styles.orderBtn}
             href="/cart"
-            onClick={() => { updateCookie('small', 1); }}
+            onClick={() => {
+              updateCookie("small", 1);
+            }}
           >
-            予約注文する
+            カートに入れる
           </a>
         </section>
         <section className={styles.page3}>
@@ -188,9 +188,11 @@ export default function Home() {
           <a
             className={styles.orderBtn}
             href="/cart"
-            onClick={() => { updateCookie('big', 1); }}
+            onClick={() => {
+              updateCookie("big", 1);
+            }}
           >
-            予約注文する
+            カートに入れる
           </a>
         </section>
 
