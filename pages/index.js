@@ -155,7 +155,7 @@ export default function Home() {
           <text className={styles.storyText}>
             <h2>SMALL</h2>
             <p>Mac13インチと、それ同等の大きさのパソコンが収まる</p>
-            <h2>¥ 15,630</h2>
+            <h2>¥ 13,000</h2>
             <br />
           </text>
           <a
@@ -182,7 +182,7 @@ export default function Home() {
           <text className={styles.storyText}>
             <h2>BIG</h2>
             <p>Mac15インチと、それ同等の大きさのパソコンが収まる</p>
-            <h2>¥ 17,830</h2>
+            <h2>¥ 15,000</h2>
             <br />
           </text>
           <a
