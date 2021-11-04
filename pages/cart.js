@@ -7,7 +7,7 @@ const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
 );
 
-const range = (n) => Array.from(Array(n), (_, k) => k+1);
+const range = (n) => Array.from(Array(n), (_, k) => k + 1);
 
 export default function Home() {
   const [cookies, setCookie, removeCookie] = useCookies([

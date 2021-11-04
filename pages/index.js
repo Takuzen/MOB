@@ -42,7 +42,7 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.campaignHeader}>
           <a className={styles.campaignText} href="#shop">
-            現在予約受付中！
+            🙅‍♂️　販売終了　🙅‍♀️
           </a>
         </section>
         <section className={styles.page1}>
@@ -158,6 +158,7 @@ export default function Home() {
             <h2>¥ 13,000</h2>
             <br />
           </text>
+          {/*
           <a
             className={styles.orderBtn}
             href="/cart"
@@ -165,8 +166,9 @@ export default function Home() {
               updateCookie("small", 1);
             }}
           >
-            カートに入れる
+            販売終了
           </a>
+          */}
         </section>
         <section className={styles.page3}>
           <div className={styles.productSpec1}>
@@ -185,6 +187,7 @@ export default function Home() {
             <h2>¥ 15,000</h2>
             <br />
           </text>
+          {/*
           <a
             className={styles.orderBtn}
             href="/cart"
@@ -192,8 +195,9 @@ export default function Home() {
               updateCookie("big", 1);
             }}
           >
-            カートに入れる
+            販売終了
           </a>
+          */}
         </section>
 
         <section className={styles.page2}>
