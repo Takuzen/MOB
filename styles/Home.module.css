@@ -70,8 +70,7 @@
 }
 
 .campaignText:hover {
-  cursor: pointer;
-  border-bottom: 3px white solid;
+  cursor: default;
 }
 
 .page1 {
