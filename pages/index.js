@@ -40,11 +40,6 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <section className={styles.campaignHeader}>
-          <a className={styles.campaignText} href="#shop">
-            🙅‍♂️　販売終了　🙅‍♀️
-          </a>
-        </section>
         <section className={styles.page1}>
           <div className={styles.mainImg}>
             <Image src="/main-img.png" alt="img" width={1439} height={636} />
@@ -82,9 +77,6 @@ export default function Home() {
             <br />
             そんなある夜中2時に、ふとこの製品の青写真が頭に浮かんで。
             <br />
-            <br />
-            MOB 代表
-            <br />鄧 卓然
           </text>
         </section>
         <section className={styles.page3}>
